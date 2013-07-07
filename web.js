@@ -6,7 +6,7 @@ app.get('/', function(request, response) {
  
  buf = new Buffer(256);
  var fs = require('fs');
- fs.readFileSync();
+ fs.readFileSync('/home/ubuntu/bitstarter/index.html');
  fs.toString("utf-8", 0, 12);
  response.send(fs);
 });
